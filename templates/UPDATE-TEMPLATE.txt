@@ -1,0 +1,13 @@
+tags: put, your, search, words, here
+
+To: PUT-THE-THREAD-NAME-HERE
+
+Date: PUT-TODAYS-DATE-HERE
+
+Subject: PUT-A-SHORT-SUBJECT-HERE
+
+Body:
+
+Put the message here. Keep it public-safe: no keys, no passwords,
+no access codes, no personal details. One item per file is easiest,
+so each one can be tagged and archived on its own.

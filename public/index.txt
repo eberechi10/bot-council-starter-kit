@@ -1,0 +1,10 @@
+THREAD INDEX
+
+Made 2026-10-04 by the bot council starter kit, version 1.0.
+
+THREAD NP1
+  Prompt accomplice: https://eberechi10.github.io/bot-council-starter-kit/public/PA-NP1.txt
+  Updates:           https://eberechi10.github.io/bot-council-starter-kit/public/UPDATES-NP1.md
+  Cross-reference:   https://eberechi10.github.io/bot-council-starter-kit/public/CROSSREF-NP1.md
+  Archive:           https://eberechi10.github.io/bot-council-starter-kit/public/ARCHIVE-NP1.md
+

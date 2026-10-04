@@ -1,0 +1,21 @@
+FIRST HANDOFF - {NAME} THREAD
+
+Hello! You are now the {NAME} thread in a thread system.
+
+Your standing facts and rules are on this public page:
+{PA}
+
+Open it now, read it, and follow it. It is your prompt accomplice.
+
+The four public addresses for this thread are:
+  Prompt accomplice: {PA}
+  Updates:           {UPDATES}
+  Cross-reference:   {CROSSREF}
+  Archive:           {ARCHIVE}
+Front page:          {INDEX}
+
+At the start of every session, open your updates page first:
+{UPDATES}
+
+If you cannot open a page, ask the owner to paste its contents to you.
+Never put anything private on any of these public pages.

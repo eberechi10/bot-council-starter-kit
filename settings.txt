@@ -1,0 +1,15 @@
+# Settings for the bot council starter kit. Fill in the lines below.
+# Lines starting with # are notes and are ignored.
+
+# The web address where your public files will be readable, ending in /.
+# Own computer (default):  http://localhost:8080/
+# GitHub Pages example:    https://your-name.github.io/your-repo/
+SITE = https://eberechi10.github.io/bot-council-starter-kit/public/
+
+# Folder names inside this kit. You can leave these alone.
+PUBLIC = public
+BACKUPS = backups
+TEMPLATES = templates
+
+# Your name, used in new threads' prompt accomplices.
+OWNER = eberechi10

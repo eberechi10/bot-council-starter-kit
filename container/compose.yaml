@@ -1,0 +1,11 @@
+# Own-computer hosting (the default route).
+# With Docker installed, from the kit folder run:  docker compose up
+# Then the public files are at  http://localhost:8080/
+services:
+  public:
+    image: nginx:alpine
+    ports:
+      - "8080:8080"
+    volumes:
+      - ../public:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
