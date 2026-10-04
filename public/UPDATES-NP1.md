@@ -17,3 +17,13 @@ https://eberechi10.github.io/bot-council-starter-kit/public/CROSSREF-NP1.md
 Made 2026-10-04.
 
 == ENTRIES BELOW ==
+
+----- added 2026-10-04 -----
+tags: welcome, starter-kit, first-thread
+
+To: NP1
+
+Subject: Welcome to your thread
+
+This is the first update made by the bot council starter kit, version 1.0.
+It proves the updates post is live and can receive updates.
