@@ -64,9 +64,20 @@ PUBLIC_NAME = S.get("PUBLIC", "public")
 BACKUPS_NAME = S.get("BACKUPS", "backups")
 TEMPLATES_NAME = S.get("TEMPLATES", "templates")
 OWNER = S.get("OWNER", "Your Name")
+PORT = S.get("PORT", "8080")
 PUBLIC = PUBLIC_NAME if os.path.isabs(PUBLIC_NAME) else os.path.join(HERE, PUBLIC_NAME)
 BACKUPS = BACKUPS_NAME if os.path.isabs(BACKUPS_NAME) else os.path.join(HERE, BACKUPS_NAME)
 TEMPLATES = TEMPLATES_NAME if os.path.isabs(TEMPLATES_NAME) else os.path.join(HERE, TEMPLATES_NAME)
+
+
+def refresh_container_env(port):
+    env_dir = os.path.join(HERE, "container")
+    if os.path.isdir(env_dir):
+        with open(os.path.join(env_dir, ".env"), "w", encoding="utf-8") as f:
+            f.write("PORT=" + str(port).strip() + "\n")
+
+
+refresh_container_env(PORT)
 
 UPDATES_HEAD = """# UPDATES - {NAME} THREAD
 

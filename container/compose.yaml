@@ -1,11 +1,13 @@
 # Own-computer hosting (the default route).
-# With Docker installed, from the kit folder run:  docker compose up
-# Then the public files are at  http://localhost:8080/
+# From the kit folder run:
+#   docker compose -f container/compose.yaml up -d
+# The port comes from PORT in settings.txt (the kit refreshes container/.env).
+# Public files are then at  http://localhost:PORT/
 services:
   public:
     image: nginx:alpine
     ports:
-      - "8080:8080"
+      - "${PORT:-8080}:8080"
     volumes:
       - ../public:/usr/share/nginx/html:ro
       - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro

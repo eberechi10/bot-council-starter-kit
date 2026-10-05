@@ -37,8 +37,18 @@ printed addresses into new AI chats.
   web for free.
 - **Own computer (default in settings):** `threads.py` writes into
   `public/`, and a small container serves it at
-  `http://localhost:8080/`. Readable only on that computer. See
-  `container/`.
+  `http://localhost:8080/`. Readable only on that computer.
+
+  From the kit folder, start it with:
+
+  ```
+  docker compose -f container/compose.yaml up -d
+  ```
+
+  It serves the public files at `http://localhost:8080/` unless you
+  change `PORT` in `settings.txt` (the tool keeps `container/.env` in
+  sync, and Docker reads that). Stop it with
+  `docker compose -f container/compose.yaml down`.
 
 ## One-time setup
 

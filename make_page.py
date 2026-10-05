@@ -34,7 +34,7 @@ def main():
         esc,
     )
     esc = esc.replace("\n\n", "</p>\n\n<p>")
-    title = os.path.basename(src)
+    title = next((line.strip() for line in text.splitlines() if line.strip()), os.path.basename(src))
     page = ('<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
             '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
             '<title>' + title + '</title>\n'
